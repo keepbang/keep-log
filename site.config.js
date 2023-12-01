@@ -17,7 +17,7 @@ const CONFIG = {
   // blog setting (required)
   blog: {
     title: "keep-log",
-    description: "welcome to keep-log!",
+    description: "keep-going!",
   },
 
   // CONFIG configration (required)
