@@ -4,9 +4,9 @@ const CONFIG = {
     name: "채기병",
     image: "/avatar.png", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "backend developer",
-    bio: "I develop everything using node.",
+    bio: "ISTJ",
     email: "rlqud1125@gmail.com",
-    github: "keepbang"
+    github: "https://github.com/keepbang/morethan-log"
   },
   projects: [
     {
