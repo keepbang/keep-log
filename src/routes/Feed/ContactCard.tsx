@@ -1,11 +1,11 @@
 import { CONFIG } from "site.config"
 import React from "react"
 import {
-  AiOutlineInstagram,
   AiOutlineGithub,
   AiOutlineMail,
   AiFillLinkedin,
 } from "react-icons/ai"
+import { SiNaver } from "react-icons/si";
 import styled from "@emotion/styled"
 
 const ContactCard: React.FC = () => {
@@ -29,9 +29,7 @@ const ContactCard: React.FC = () => {
             rel="noreferrer"
             target="_blank"
           >
-              <div className="icon" >
-                  <img alt="naver_blog" src="/public/naver_blog.png"/>
-              </div>
+              <SiNaver className="icon" />
             <div className="name">Naver Blog</div>
           </a>
         )}
