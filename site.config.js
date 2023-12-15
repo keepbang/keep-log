@@ -7,8 +7,8 @@ const CONFIG = {
     bio: "ISTJ",
     email: "rlqud1125@gmail.com",
     github: "keepbang",
-    linkedin: "gibyoung",
-    instagram: ""
+    linkedin: "gibyoung-chae",
+    naver_blog: "keepbang"
   },
   projects: [
     {

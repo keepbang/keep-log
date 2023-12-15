@@ -23,14 +23,16 @@ const ContactCard: React.FC = () => {
             <div className="name">github</div>
           </a>
         )}
-        {CONFIG.profile.instagram && (
+        {CONFIG.profile.naver_blog && (
           <a
-            href={`https://www.instagram.com/${CONFIG.profile.instagram}`}
+            href={`https://blog.naver.com/${CONFIG.profile.naver_blog}`}
             rel="noreferrer"
             target="_blank"
           >
-            <AiOutlineInstagram className="icon" />
-            <div className="name">instagram</div>
+              <dif className="icon" >
+                  <img alt="naver_blog" src="/public/naver_blog.png"/>
+              </dif>
+            <div className="name">Naver Blog</div>
           </a>
         )}
         {CONFIG.profile.email && (
