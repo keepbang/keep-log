@@ -29,9 +29,9 @@ const ContactCard: React.FC = () => {
             rel="noreferrer"
             target="_blank"
           >
-              <dif className="icon" >
+              <div className="icon" >
                   <img alt="naver_blog" src="/public/naver_blog.png"/>
-              </dif>
+              </div>
             <div className="name">Naver Blog</div>
           </a>
         )}
